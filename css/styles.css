@@ -224,8 +224,9 @@ p {
 }
 
 .modal-button {
-  /* border-bottom: 1px solid #000000;
-  border-radius: 10%; */
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
   width: 30px;
   height: 30px;
   margin: 8px;
