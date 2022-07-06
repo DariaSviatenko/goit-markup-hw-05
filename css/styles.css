@@ -87,6 +87,7 @@ ul {
   text-decoration: none;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover,
@@ -105,7 +106,7 @@ ul {
   border-radius: 2px;
   top: 45px;
   left: 0;
-  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .current {
@@ -716,7 +717,7 @@ section.description {
   max-width: 370px;
 }
 
-.list-portfolio-photo div {
+.list-portfolio-photo div:last-of-type {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
